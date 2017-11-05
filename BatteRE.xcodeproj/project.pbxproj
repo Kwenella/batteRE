@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		AD7AC2A11FAEF69C0038F615 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7AC2A01FAEF69C0038F615 /* AppDelegate.swift */; };
-		AD7AC2A31FAEF69C0038F615 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7AC2A21FAEF69C0038F615 /* ViewController.swift */; };
 		AD7AC2A51FAEF69C0038F615 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7AC2A41FAEF69C0038F615 /* Assets.xcassets */; };
 		AD7AC2A81FAEF69C0038F615 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD7AC2A61FAEF69C0038F615 /* Main.storyboard */; };
+		AD7AC2B21FAF05C40038F615 /* BatteREViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7AC2B11FAF05C40038F615 /* BatteREViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD7AC29D1FAEF69C0038F615 /* BatteRE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BatteRE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7AC2A01FAEF69C0038F615 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AD7AC2A21FAEF69C0038F615 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AD7AC2A41FAEF69C0038F615 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD7AC2A71FAEF69C0038F615 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AD7AC2A91FAEF69C0038F615 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD7AC2AA1FAEF69C0038F615 /* BatteRE.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BatteRE.entitlements; sourceTree = "<group>"; };
+		AD7AC2B11FAF05C40038F615 /* BatteREViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteREViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				AD7AC2A01FAEF69C0038F615 /* AppDelegate.swift */,
-				AD7AC2A21FAEF69C0038F615 /* ViewController.swift */,
+				AD7AC2B11FAF05C40038F615 /* BatteREViewController.swift */,
 				AD7AC2A41FAEF69C0038F615 /* Assets.xcassets */,
 				AD7AC2A61FAEF69C0038F615 /* Main.storyboard */,
 				AD7AC2A91FAEF69C0038F615 /* Info.plist */,
@@ -134,7 +134,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD7AC2A31FAEF69C0038F615 /* ViewController.swift in Sources */,
+				AD7AC2B21FAF05C40038F615 /* BatteREViewController.swift in Sources */,
 				AD7AC2A11FAEF69C0038F615 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
